@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:3001";
+const URL = "https://simple-mern-app-api.onrender.com/";
 
 export const fetchPosts = () => axios.get(`${URL}/posts`);
 export const createPost = (payload) => axios.post(`${URL}/posts`, payload);
